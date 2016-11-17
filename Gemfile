@@ -19,6 +19,8 @@ gem 'react-rails'
 gem 'better_errors'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'rest-client'
+gem 'unirest'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
