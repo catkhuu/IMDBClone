@@ -6,14 +6,14 @@ class App extends React.Component {
     }
   }
 
-  componentDidMount() {
-    $.ajax({
-      url: '/static/search/christmas',
-      method: 'GET'
-    }).done(function(response) {
-      this.setState({movies: response})
-    }.bind(this))
-  }
+  // componentDidMount() {
+  //   $.ajax({
+  //     url: '/static/search/christmas',
+  //     method: 'GET'
+  //   }).done(function(response) {
+  //     this.setState({movies: response})
+  //   }.bind(this))
+  // }
 
   updateSearchResultView(searchResults) {
     // debugger;
