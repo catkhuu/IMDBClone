@@ -1,24 +1,19 @@
-# README
+# IMDBClone 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A single-page React/Rails app that let's users search for movies with the use of the OMDB API. 
 
-Things you may want to cover:
+## Current Features: 
+- User can search for a movie by title 
+- The generated results update 'on change' (as the user types another letter)
+- User can see a short description for each movie. 
 
-* Ruby version
+## TODO: 
+- Search by genre 
+- Search by year and title 
+- Allow users to create an account 
+- Allow users to create movie lists that they can share 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies: 
+- React/Rails gem 
+- AJAX
+- OMDB API 
